@@ -1,14 +1,12 @@
-import React, { useState } from 'react'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import Header from './components/Header'
+import React from 'react'
+import Background from './components/Background'
+import Chat from './components/Chat'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      <Header />
-      <Hero />
-      <Features />
+    <div className="min-h-screen p-4 flex items-center justify-center">
+      <Background />
+      <Chat />
     </div>
   )
 }
